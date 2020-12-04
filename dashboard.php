@@ -1,0 +1,1 @@
+<?phpsession_start();if(isset($_SESSION['IS_LOGIN'])){	header('location:welcome.php');}else{	header('location:otpindex.php');	die();}?><a href="logout.php">Logout</a>
